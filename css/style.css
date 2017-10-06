@@ -7,7 +7,10 @@
 }
 
 body {
-	background-color: #333;
+	background: #333 url("../bg.png") center center no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
 	font-family: Arial;
 }
 
